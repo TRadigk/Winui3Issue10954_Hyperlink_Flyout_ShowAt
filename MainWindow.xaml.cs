@@ -22,7 +22,6 @@ public sealed partial class MainWindow : Window
         {
             Placement = FlyoutPlacementMode.Auto
         };
-        Debug.Assert(sender.GetType() == typeof(DependencyObject));
 
         var flyout = new Flyout()
         {
